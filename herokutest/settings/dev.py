@@ -66,3 +66,5 @@ MIDDLEWARE_CLASSES += (
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 ########## END TOOLBAR CONFIGURATION
+
+BROKER_URL = 'amqp://guest:guest@localhost:5672//'

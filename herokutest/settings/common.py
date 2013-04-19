@@ -199,6 +199,7 @@ THIRD_PARTY_APPS = (
 )
 
 LOCAL_APPS = (
+    'apps.otgcelery',
 )
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
