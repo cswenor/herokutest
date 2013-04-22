@@ -50,7 +50,7 @@ CACHES = memcacheify()
 
 ########## CELERY CONFIGURATION
 # See: http://docs.celeryproject.org/en/latest/configuration.html#broker-transport
-BROKER_TRANSPORT = 'amqplib'
+BROKER_TRANSPORT = 'amqp'
 
 # Set this number to the amount of allowed concurrent connections on your AMQP
 # provider, divided by the amount of active workers you have.
